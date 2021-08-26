@@ -1,0 +1,170 @@
+
+
+body {
+    background: url("background.jpg");
+    font-size: 16px;
+    font-family: "Karla";
+    padding: 0px
+    }
+
+    .Container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+.WhiteBox {
+    background-color: white;
+    font-weight: bold;
+    padding: 30px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    text-align: justify;
+    letter-spacing: 2.5px;
+    margin: 0;
+    width: 560px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color:hsl(179, 62%, 43%);
+    
+}
+
+h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+p {
+    margin: 0;
+    color: hsl(207, 4%, 57%);
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.Shitboxes{
+     height: 260px;
+     width: 680px;
+     display: flex;
+     align-items: flex-end;
+     margin-left: 60px;
+}
+
+.ButtonBox{
+     margin: 0;
+     width: 250px;
+     height: 200px;
+     background-color: hsl(179, 62%, 43%);
+     border-bottom-left-radius: 10px ;
+     padding: 30px;
+    }
+.SubTitles{
+    color: white;
+    font: bold;
+}
+
+.PriceBox{
+    height: 40px;
+    width: 360px ;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Price{
+    font-size: 40px;
+    font:bold;
+    color: white;
+    height: 40px;
+    width: 80px;
+}
+
+.PerMonth{
+    font-size: 15px;
+    font:bold;
+    color: hsl(178, 62%, 61%);
+    height: 20px;
+    width: 280px; 
+}
+
+.Description{
+    font-size: 15px;
+    font:bold;
+    color: white;
+    height: 20px;
+    width: 280px;
+    padding-top: 15px;
+}
+
+input[type=button], select, textarea{
+    width: 220px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: hsl(71, 73%, 54%);
+    color: rgb(246, 250, 225);
+    border: none;
+    filter:drop-shadow(0 0 0.5rem #bab7b7);
+}
+
+.InformationBox{
+    background-color: hsl(178, 62%, 61%);
+    margin: 0;
+    width: 250px;
+    height: 200px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+}
+
+.List{
+    font-size: 13px;
+    font:bold;
+    color: hsl(180, 8%, 95%);
+    height: 20px;
+    width: 280px; 
+    line-height: 20px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 414px) {
+     .Container {
+        width: 400px;
+        height: 660px;
+        display: block;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .WhiteBox{
+        height: 220px;
+        width: 350px;
+        display: block;
+   }
+
+}
+@media screen and (max-width:400px) {
+    .Shitboxes{
+        height: 440px;
+        width: 350px;
+        display: block;
+    }
+}
+    @media screen and (max-width:400px) {
+        .ButtonBox{
+            height: 220px;
+            width: 350px;
+            display: block;
+       }
+}
+           @media screen and (max-width:400px) {
+        .InformationBox{
+            height: 220px;
+            width: 350px;
+            display: block;
+       }
+
+}
